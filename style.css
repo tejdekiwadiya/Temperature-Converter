@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    transition: 0.5s all ease-in-out;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#background-image {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    right: 0;
+    bottom: 0;
+    transition: 0.5s all ease-in-out;
+}
+
+.Converter {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transition: 0.5s all ease-in-out;
+    position: absolute;
+    background-color: rgba(0, 26, 255, 0.123);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+#alert {
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.animation {
+    cursor: grab;
+    font-weight: 500;
+    display: none;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.59);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(4.7px);
+    box-shadow: 0 4px 30px rgba(255, 0, 0, 0.7);
+    padding: 9px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    transition: 1s all ease-in-out;
+    position: relative;
+}
+
+.title {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.5s all ease-in-out;
+    align-content: center;
+}
+
+#temp {
+    position: relative;
+    font-size: 14px;
+    align-content: center;
+    margin-left: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 9px;
+    height: min-content;
+    width: min-content;
+    border-color: #5000ca;
+    transition: 0.5s all ease-in-out;
+}
+
+.Layout {
+    position: relative;
+    top: 5px;
+    left: 25px;
+    transition: 0.5s all ease-in-out;
+    /* margin-top: 4px; */
+}
+
+input {
+    position: relative;
+    transition: 0.5s all ease-in-out;
+    align-content: center;
+    color: #5000ca;
+    background-color: #5100ca00;
+    font-family: 'Orbitron', sans-serif;
+}
+
+input:focus {
+    background-color: #5100ca00;
+}
+
+#radio {
+    cursor: grab;
+    transition: 0.5s all ease-in-out;
+    align-content: center;
+    accent-color: #5000ca;
+}
+
+.Layout {
+    position: relative;
+    left: 75px;
+    padding-top: 10px;
+}
+
+#submit {
+    position: relative;
+    top: 16px;
+    left: 140px;
+    cursor: grab;
+    align-content: center;
+    font-family: 'Orbitron', sans-serif;
+    /* border-color: #5000ca; */
+    border: 2.9px solid #5000ca;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 8px;
+    transition: 0.5s all ease-in-out;
+}
+
+#submit:hover {
+    border-radius: 25px;
+    border: 2.9px dashed #5000ca;
+    position: relative;
+    background-color: transparent;
+}
+
+.result {
+    display: none;
+    cursor: grab;
+    transition: 0.5s all ease-in-out;
+    text-align: center;
+    padding: 5px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 255, 0, 0.3);
+    transform: translateY(80%);
+    position: relative;
+    top: 8.5px;
+}

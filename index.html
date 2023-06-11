@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#5000ca" fill-opacity="0.7"
+            d="M0,256L30,245.3C60,235,120,213,180,208C240,203,300,213,360,224C420,235,480,245,540,261.3C600,277,660,299,720,288C780,277,840,235,900,197.3C960,160,1020,128,1080,101.3C1140,75,1200,53,1260,69.3C1320,85,1380,139,1410,165.3L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+        </path>
+    </svg>
+
+    <img src="./temperature.jpg" alt="temp" id="background-image">
+
+    <div class="Converter">
+        <div id="alert" class="panding" onclick="hidealrt()"></div>
+        <div class="title">Temperature Converter</div>
+
+        <div>
+            <label for="temperature">Temperatur</label>
+            <input type="text" name="temp" id="temp" required>
+        </div>
+
+        <div class="Layout">
+            <input type="radio" name="type" id="radio" value="c">
+            <label for="type">Celcius</label>
+            <input type="radio" name="type" id="radio" value="f">
+            <label for="type">Farenheit</label>
+
+        </div>
+        <button type="button" name="submit" id="submit" onclick="temp_value()">Submit</button>
+
+        <div id="result" class="panding" onclick="hideRes()"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
